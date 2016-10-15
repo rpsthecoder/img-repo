@@ -9,22 +9,22 @@
           :MHI:HHIHMMHHIIHII::.::IIHMMHHIHHMMM::HMMM:
            MI::HHMMIIM:IIHII::..::HM:MHHII:::IHHMMM:
            MMMHII::..:::IHMMHHHHMHHMMI:::...::IHM:
-           :MHHI::....::::HMMMMMMHHII::.. ..::::M:
+           :MHHI::....::::HMMMMMMHHII::.. ..::::::
             :MI:.:MH:.....:HMMMMHHMIHMMHHI:HH.:MM
             M:.I..MHHHHHMMMIHMMMHMMHHHHHMMHHH.:MM.
-            :M:HM:.M I:MHIIMMIIHM I:MM::.:MMI:M..
-            'M::MM:IMH:MMII MMHIMHI :M::IIHMM:MM
+            :::HM:.M I:MHIIMMIIHM I:MM::.:MMI:M..
+            'M::MM:IMH:MMII MMHIMHI ::::IIHMM:MM
              MH:HMMHIHMMMMMMHMMIMHIIHHHHIMMHHMM
               MI:MMMMHI:::::IMM:MHI:::IMMMMHIM
                MH:MMMHHHHHI:HMMHMMIHHMMMMMHIM
                :IMHIHMMMMMM:MMMMMHHHHMMMHI:M
                 HI:IMIHMMMM:MMMMMMHHHMI:.:M
-   .............M::..:HMMMMIMHIIHMMMMHII:M:::'''''''''''
-         ....:::MHI:.:HMMMMMMMMHHHMHHI::M:::::::'''''''
+   .............M::..:HMMMMIMHIIHMMMMHII:::::'''''''''''
+         ....:::MHI:.:HMMMMMMMMHHHMHHI::::::::::'''''''
       '''   ...:MHI:.::MMHHHMHMIHMMMMHH.MI..........
         '''  ....MHI::..:MHHHHIHHMM:::IHM          ''''
                 IMH.::..::HMMHMMMH::..:HM:
-               :M:.H.IHMIIII::IIMHMMM:H.MH
+               :::.H.IHMIIII::IIMHMMM:H.MH
                 IMMMH:HI:MMIM:IHI:HIMIHM::
               .MMI:.HIHMIMI:IHIHMMHIHI:MIM.
              .MMHII:::IHIII::::::IIIIIIHMHII
