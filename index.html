@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>How to use emojis with and center CSS shapes</title>
+	<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+	<style>
+		#design{
+			width: 400px; height: 400px;
+			margin: auto; margin-top: calc(50vh - 200px);
+			display: grid; grid: "1fr 1fr";
+			overflow: hidden;
+			border-radius: 50%;
+			background: repeating-linear-gradient(135deg, red, red 5px, green 5px, green 10px, blue 10px, blue 15px);
+			user-select: none; -webkit-user-select: none;
+			cursor: default;
+		}
+		p{
+ 			margin: 0;
+ 			text-align: justify;
+ 			font-family: 'Patua One', serif;
+ 			mix-blend-mode: screen;
+ 			background: white;
+		}
+		span.shape{
+			width: 75px; height: 150px;
+			shape-margin: 10px;
+		}
+
+		p#leftSide>span.shape{
+			--image-url: url("https://raw.githubusercontent.com/rpsthecoder/img-repo/gh-pages/bg.svg");
+			float: right;
+			background-image: var(--image-url);
+			shape-outside: var(--image-url);
+		}
+
+		p#rightSide>span.shape{
+			--image-url: url("https://raw.githubusercontent.com/rpsthecoder/img-repo/gh-pages/bg.svg");
+			float: left;
+			background-image: var(--image-url);
+			shape-outside: var(--image-url);
+		}
+
+
+
+		/* Finetuning */
+
+		p#rightSide{
+			padding-left: 4px;
+		}
+
+		p#rightSide>span.shape{
+			margin-left: -4px;
+		}
+		@supports (-moz-appearance: none){
+			p#rightSide>span.shape{
+				--image-url: url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22150px%22 height=%22150px%22><foreignObject width=%22150px%22 height=%22150px%22><div xmlns=%22http://www.w3.org/1999/xhtml%22 style=%22width:150px;height:150px;line-height:150px;text-align:center;color:transparent;text-shadow: 0 0 black;font-size:130px;%22>🦎</div></foreignObject></svg>");
+				background-position: 100%;
+			}
+
+			span.shape{
+				shape-margin: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="design">
+		<p id="leftSide">Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get<span class="shape"></span>Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go  Set Go Get Set Go  Set Go </p>
+		<p id="rightSide">Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get<span class="shape"></span>Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get  Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get Set Go Get  Set Go Get Set Go </p>
+		
+	</div>
+
+</body>
+</html>
